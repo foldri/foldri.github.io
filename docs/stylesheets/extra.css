@@ -108,9 +108,6 @@ details[open] summary {
 }
 
 
-
-
-
 /* ABOUT */
 
 .all-about {
@@ -196,11 +193,11 @@ details[open] summary {
 }
 
 /* INLINE LINKS */
-.md-typeset a, .md-typeset a:hover, a:before {
+/* .md-typeset a, .md-typeset a:hover, a:before {
     transition: color 125ms;
-    color: rgb(168, 39, 39); /* Change this to your desired link color */
+    color: rgb(168, 39, 39);
     text-decoration: underline;
-    }
+    } */
 
 .md-typeset .headerlink:focus, .md-typeset .headerlink:hover, .md-typeset :target>.headerlink {
     color: white;
@@ -212,10 +209,10 @@ details[open] summary {
 }
 
 
-
-
-
-/* Igli and Fred Personal Websites */
+.md-typeset a, .md-typeset a:hover, a:before {
+    color: white;
+    text-decoration: none;
+}
 
 
 /* Set global content tabs features */
@@ -256,10 +253,37 @@ details[open] summary {
 
 .about-grid {
     display: grid;
-    grid-template-columns: 0.7fr 2fr;
+    grid-template-columns: 1fr 1.8fr;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+#teaching {
+    margin-bottom: 0.1rem;
+}
+
+.summary-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 1.5fr;
     gap: 20px;
     align-items: center;
 }
+
+.blue-rectangle {
+    display: inline-block; /* Adjust to inline, if needed */
+    background-color:#0056b3; /* Blue fill color */
+    color: white; /* Text color */
+    padding: 0.5rem 0.8rem; /* Padding around the text */
+    border-radius: 0.6rem; /* Optional: Rounded corners */
+    margin: 0.2rem;
+    font-size: 0.75rem; /* Adjust text size */
+    text-align: center; /* Center text alignment */
+  }
+
+  .blue-rectangle:hover {
+    background-color: navy; /* Darker blue on hover */
+    text-decoration: none; /* Remove underline on hover */
+  }
 
 .teaching-grid {
     display: grid;
@@ -275,8 +299,27 @@ details[open] summary {
     align-items: center;
 }
 
-.about-img, .work-title, .research-title, .teaching-title {
+.about-img, .work-title, .research-title, .teaching-title, .summary-img {
     text-align: center;
+}
+
+
+.summary-img {
+    margin-top: 0.3rem;
+}
+
+#research {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+#work-in-progress {
+    margin: 0rem;
+    padding: 0.4rem;
+}
+
+#working-papers {
+    margin-top: 1.2rem;
 }
 
 .about-img img {
@@ -315,7 +358,7 @@ details[open] summary {
     text-decoration: none;
 }
 
-.about-info, .work-info, .research-info, .teaching-info {
+.about-info, .work-info, .research-info, .teaching-info, .summary-info {
     text-align: left;
 }
 
@@ -326,7 +369,7 @@ details[open] summary {
 
 .work-info ul, .research-info ul, .teaching-info ul {
     margin-bottom: 0rem;
-    margin-top: 1.35rem;
+    margin-top: 0rem;
 }
 
 .work-info ul, .research-info ul {
@@ -348,9 +391,12 @@ details[open] summary {
     margin-bottom: 10px;
 }
 
-.work-info li i, .research-info li i, .teaching-info li i {
+.research-info li i {
     margin-right: 10px;
-    color: #0056b3;
+}
+ 
+.work-info li i, .teaching-info li i {
+    margin-right: 10px;
 }
 
 .work-info li span, .research-info li span {
@@ -363,7 +409,7 @@ details[open] summary {
 
 @media (max-width: 990px) {
 
-    .about-grid {
+    .about-grid, .summary-grid {
         display: grid;
         grid-template-columns: 1fr;
         grid-row-gap: 20px;

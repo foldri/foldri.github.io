@@ -1,38 +1,19 @@
 site_name: 'Igli Bajo <br><small><i>PhD Candidate in Finance at UZH and SFI&nbsp;</i></small>'
 
 nav:
-  - About: 
-    - about/index.md
-  - Research: igli/index.md
-  - Teaching: fred/index.md
+  - About: about/index.md
+  - Research: research/index.md
+  - Teaching: teaching/index.md
 
 theme:
   name: material
   custom_dir: overrides
   features:
-    # - navigation.instant
     - navigation.top
     - navigation.indexes
-    # - navigation.tabs
-    # - navigation.tabs.sticky
-    # - navigation.tracking
     - toc.integrate
-  favicon: assets/images/logo.jpg
-  logo: assets/images/logo.jpg  # Update the path to your logo
-  # logo:
-  #   icon: "home"
-  #palette:
-  #  primary: "white" #"blue grey"
-  #  accent: "teal"
-  font:
-    text: "IBM Plex Serif"
-    code: "IBM Plex Mono"
-  extra:
-    social:
-      - type: "github"
-        link: "https://github.com/FredHB"
-      - type: "linkedin"
-        link: "https://linkedin.com/in/fbennhoff"
+  favicon: assets/university-of-zurich-logo.jpg
+  logo: assets/uzh_logo.png  # Update the path to your logo
 
 markdown_extensions:
   - pymdownx.arithmatex  # Render LaTeX math
@@ -60,7 +41,6 @@ markdown_extensions:
   - admonition  # Admonition blocks
   - footnotes  # Footnotes support
   - codehilite  # Code highlighting
-#  - fontawesome_markdown  # FontAwesome icons
   - pymdownx.inlinehilite
   - pymdownx.superfences
   - pymdownx.details
