@@ -17,6 +17,7 @@
 /* Exempt the navigation menu from text justified */
 .md-nav {
     text-align: left; /* Override text alignment for navigation menu */
+    font-size: 0.9rem;
 }
 
 /* HEADER CONFIGURATION */

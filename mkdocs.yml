@@ -1,28 +1,22 @@
-site_name: 'market.clearing <br><small><i>economic research and opinion.</i></small>'
+site_name: 'Igli Bajo <br><small><i>PhD Candidate in Finance at UZH and SFI&nbsp;</i></small>'
 
 nav:
   - About: 
     - about/index.md
-    - Frederik Bennhoff:
-      - Frederik Bennhoff: fred/index.md
-    - Igli Bajo:
-      - Igli Bajo: igli/index.md
-  - Blog: blog/index.md
-  - Short Courses & Resources:
-    - Solving Economic Models: 
-      - sem/index.md
-      - 1 Numpy: ./sem/1-numpy.md
-      - 2 Numba: ./sem/2-numba.md
-      - "3 Application: Stochastic Processes": ./sem/3-application_stoch_proc.md
-      - 4 Optimization: ./sem/4-optimization.md
-      - 5 Endogenous Grid Method: ./sem/5-endogenous_grid_method.md
+  - Research: igli/index.md
+  - Teaching: fred/index.md
 
 theme:
   name: material
   custom_dir: overrides
   features:
+    # - navigation.instant
     - navigation.top
     - navigation.indexes
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.tracking
+    - toc.integrate
   favicon: assets/images/logo.jpg
   logo: assets/images/logo.jpg  # Update the path to your logo
   # logo:
