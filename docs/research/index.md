@@ -1,9 +1,3 @@
-<!-- ---
-hide:
-  - navigation
-  - toc
---- -->
-
 # **Research** 
 
 ## **_Working Papers_**
