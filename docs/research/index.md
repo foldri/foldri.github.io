@@ -8,7 +8,7 @@ title: Research
 <section id="research" class="home-section wg-research">
     <div class="research-info">
         <ul>
-        <li><i class="far fa-newspaper"></i>"Not-So-Cleansing Recessions", with Frederik Bennhoff and Alessandro Ferrari, 2024.<br><i> Draft coming soon.</i><a href="./Not_So_Cleansing_Recessions_Slides.pdf" class="blue-rectangle" target="_blank">Slides</a>
+        <li><i class="far fa-newspaper"></i>"Not-So-Cleansing Recessions," with Frederik Bennhoff and Alessandro Ferrari, 2024.<br><i> Draft coming soon.</i><a href="./Not_So_Cleansing_Recessions_Slides.pdf" class="blue-rectangle" target="_blank">Slides</a>
         <details open><summary>Summary</summary>
             <div class="summary-grid">
                 <div class="summary-img text-center">
@@ -29,9 +29,9 @@ title: Research
 <section id="work-in-progress" class="home-section wg-work-in-progress">
     <div class="work-info">
         <ul>
-        <li><i class="fas fa-person-digging"></i>"Local stock markets", with Charles Parry.</li>
-        <li><i class="fas fa-person-digging"></i>"Information disclosure and firm entry", with Fulvia Oldrini.</li>
-        <li><i class="fas fa-person-digging"></i>"Wealth inequality, concentration, and markups", with Frederik Bennhoff and Jason Blunier.</li>
+        <li><i class="fas fa-person-digging"></i>"Local stock markets," with Charles Parry.</li>
+        <li><i class="fas fa-person-digging"></i>"Information disclosure and firm entry," with Fulvia Oldrini.</li>
+        <li><i class="fas fa-person-digging"></i>"Wealth inequality, concentration, and markups," with Frederik Bennhoff and Jason Blunier.</li>
         </ul>
     </div>
 </section>
