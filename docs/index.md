@@ -7,7 +7,7 @@ title: About
 <section id="about-sec" class="wg-about-biography">
     <div class="about-grid">
     <div class="about-img text-center">
-        <img src="../docs/about/IgliBajo_Photo.jpeg" alt="Picture of Igli Bajo" class="img-responsive img-circle" style="width: 300px; height: auto;">
+        <img src="../about/IgliBajo_Photo.jpeg" alt="Picture of Igli Bajo" class="img-responsive img-circle" style="width: 300px; height: auto;">
         <h3 id="about-head">Igli Bajo</h3>
         <p class="headline">PhD Candidate in Finance</p>
         <p class="headline">University of Zurich and</p>
@@ -16,7 +16,7 @@ title: About
         <a href="mailto:igli.bajo@df.uzh.ch" target="_blank"><i class="fas fa-envelope"></i></a>
         <a href="https://x.com/IgliBajo" target="_blank"><i class="fab fa-twitter"></i></a>
         <a href="https://www.linkedin.com/in/igli-bajo-6b3483a4/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="../docs/about/CV_IgliBajo.pdf" class="cv-link" target="_blank">CV</a>  
+        <a href="./CV_IgliBajo.pdf" class="cv-link" target="_blank">CV</a>  
         </p>
     </div>
     <div class="about-info">
