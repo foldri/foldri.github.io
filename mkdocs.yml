@@ -12,8 +12,8 @@ theme:
     - navigation.top
     - navigation.indexes
     - toc.integrate
-  favicon: assets/university-of-zurich-logo.jpg
-  logo: assets/uzh_logo.png  # Update the path to your logo
+  favicon: docs/assets/university-of-zurich-logo.jpg
+  logo: docs/assets/uzh_logo.png  # Update the path to your logo
 
 markdown_extensions:
   - pymdownx.arithmatex  # Render LaTeX math

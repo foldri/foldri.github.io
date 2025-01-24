@@ -1,3 +1,6 @@
+---
+title: Teaching 
+---
 # **Teaching** 
 
 <h3><i style="font-weight:bold">University of Zurich</i></h3>
