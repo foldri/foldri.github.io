@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+<!-- Add the favicon setup in the head section -->
+{% block head %}
+  {{ super() }}
+  <link rel="icon" href="{{ base_url }}/assets/university-of-zurich-logo.png" type="image/png">
+  <!-- Alternative for PNG favicon -->
+  <!-- <link rel="icon" href="{{ base_url }}/favicon.png" type="image/png"> -->
+{% endblock %}
+
+{% block htmltitle %}
+  {% if page.meta and page.meta.title %}
+    <title>{{ page.meta.title }}</title>
+  {% elif page.title and not page.is_homepage %}
+    <title>{{ page.title | striptags }}</title>
+  {% else %}
+    <title>{{ config.site_name }}</title>
+  {% endif %}
+{% endblock %}

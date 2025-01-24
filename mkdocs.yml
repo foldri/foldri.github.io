@@ -7,11 +7,12 @@ nav:
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.top
     - navigation.indexes
     - toc.integrate
-  favicon: assets/university-of-zurich-logo.jpg
+  favicon: assets/university-of-zurich-logo.png
   logo: assets/uzh_logo.png  # Update the path to your logo
 
 markdown_extensions:
