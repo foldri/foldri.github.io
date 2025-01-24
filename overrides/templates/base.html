@@ -9,3 +9,13 @@
     <title>{{ config.site_name }}</title>
   {% endif %}
 {% endblock %}
+
+{% block htmlhead %}
+  {{ super() }}  <!-- This includes any default head content from the parent template -->
+  
+  {% if page.url == "/" %}
+    <!-- Only redirect if we're on the homepage (index.md) -->
+    <meta http-equiv="refresh" content="0;url=index.html">
+  {% endif %}
+{% endblock %}
+
