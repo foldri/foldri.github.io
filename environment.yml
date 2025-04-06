@@ -7,4 +7,6 @@ dependencies:
   - mkdocs=1.6.0
   - mkdocs-material=9.5.32
   - pymdown-extensions=10.9
-  - fontawesome-markdown=0.2.6
+  - pip
+  - pip:
+      - fontawesome-markdown==0.2.6

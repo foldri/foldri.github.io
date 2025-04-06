@@ -3,22 +3,30 @@ title: Teaching
 ---
 # **Teaching** 
 
+<h3><i style="font-weight:bold">University of Zurich Continuing Education</i></h3>
+
+<div class="work-info">
+    <ul>
+    <li><i class="fas fa-building-flag"></i>Teaching Skills Program Attestation - Systematic development of university-level teaching skills in instructors at the University of Zurich (Academic year 2023-2024)</li>
+    </ul>
+</div>
+
 <h3><i style="font-weight:bold">University of Zurich</i></h3>
 
 <div class="work-info">
     <ul>
-    <li><i class="fas fa-chalkboard-user"></i>Teaching Assistant, Macroeconomics for Research Students Part I, PhD (Fall 2024)</li>
-    <li><i class="fas fa-chalkboard-user"></i>Teaching Assistant, Economic Foundations for Finance, Master's (Fall 2024)</li>
-    <li><i class="fas fa-chalkboard-user"></i>Teaching Assistant, Real Analysis I, Master's (Fall 2023)</li>
-    <li><i class="fas fa-chalkboard-user"></i>Theses Supervision, Master's and Bachelor's (2023-present)</li>
+    <li><i class="fas fa-person-chalkboard"></i>Teaching Assistant, Financial Reporting, Bachelor's (Spring 2021, 2022, 2023, 2024)</li>
+    <li><i class="fas fa-chalkboard-user"></i>Teaching Assistant, Accounting Boot Camp for Master's students, Master's (Fall 2021, 2022)</li>
+    <li><i class="fas fa-chalkboard-user"></i>Teaching Assistant, Theories of Accounting Disclosure, Master's (Fall 2021)</li>
+    <li><i class="fas fa-chalkboard-user"></i>Theses Supervision, Master's and Bachelor's (2021-present)</li>
     </ul>
 </div>
 
-<h3><i style="font-weight:bold">Powercoders Coding Academy, Zurich, Switzerland</i></h3>
+<h3><i style="font-weight:bold">Università della Svizzera Italiana</i></h3>
 
 <div class="work-info">
     <ul>
-    <li><i class="fas fa-person-chalkboard"></i>Python Programming (2021-2022)</li>
+    <li><i class="fas fa-chalkboard-user"></i>Teaching Assistant, Introduction to Econometrics, Bachelor's (Spring 2015)</li>
     </ul>
 </div>
 
