@@ -29,30 +29,22 @@ title: Research
         </li>
         </ul>
         <ul>
-        <li><i class="far fa-newspaper"></i>"The Role of Roadshows in Corporate Bond Issuance: Determinants and Consequences," with Mingxuan Ma and Sike Chen (2025).<br><i>Draft available upon request</i>
+        <li><i class="far fa-newspaper"></i>"I need a network: determinants and consequences of debt roadshows," with Mingxuan Ma and Sike Chen.<br><i>Draft available upon request</i>
         <details open><summary>Summary</summary>
             <div class="summary-grid">
                 <div class="summary-img text-center">
                     <img src="./Roadshows_types_year.png" alt="Main Figure of Chen, Ma, Oldrini (2025)" class="img-responsive" style="width: 400px; height: auto;">
                 </div>
                 <div class="summary-info">
-                <p>This paper examines why firms conduct roadshows prior to bond issuance and investigates
-                their ex-post impact on the cost of bond financing and bond underpricing. Using data from
-                the German bond market (2014–2023), we find that roadshows primarily serve as a marketing
-                tool—boosting investor interest and increasing demand—rather than as a feedback mechanism.
-                Firms that conduct bond roadshows experience larger upward price revisions, higher oversubscription
-                ratios in the primary market, and lower financing costs. We also test the empirical
-                prediction of the book-building theory (Benveniste and Spindt (1989)), namely that securities
-                underpricing is positively associated with investor interest. We confirm this relationship in the
-                German bond market but find no evidence that roadshows directly affect bond underpricing.
-                These findings offer novel insights into the role of investor relations in debt markets, highlighting how roadshows influence capital-raising outcomes.</p>
+                <p>This paper examines why some public firms conduct roadshows for bond issues and their ex-post impact on the cost of bond financing and bond underpricing. Using data from the German bond market (2014–2023), we find that roadshows primarily serve as a marketing tool, establishing a network of investors and boosting demand, rather than as a tool to reduce information asymmetry, as shown by previous studies on initial public offerings (IPOs) roadshows. Firms that conduct bond roadshows experience larger upward price revisions, higher oversubscription ratios in the primary market, and lower financing costs. 
+                We validate our results by running cross-sectional tests and additional tests that determine whether bond roadshows have an impact on bond underpricing through investors' interest. Lastly, we find evidence that bond roadshows aim to market special bond characteristics and establish a network of investors. These findings offer novel insights into the role of the investors' networks in bond markets, highlighting how roadshows influence capital-raising outcomes.</p>
                 </div>
             </div>
         </details>
         </li>
         </ul>
         <ul>
-        <li><i class="far fa-newspaper"></i>"Mandatory Sustainability Reporting and Project Selection," with Hui  Chen, 2024.<br><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4864092" class="blue-rectangle" target="_blank">SSRN link</a>
+        <li><i class="far fa-newspaper"></i>"Mandatory Sustainability Reporting and Project Selection," with Hui Chen.<br><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4864092" class="blue-rectangle" target="_blank">SSRN link</a>
         <details open><summary>Summary</summary>
             <div class="summary-grid">
                 <div class="summary-img text-center">

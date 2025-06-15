@@ -264,7 +264,7 @@ details[open] summary {
 
 .summary-grid {
     display: grid;
-    grid-template-columns: 1.2fr 1.3fr;
+    grid-template-columns: 1fr 2fr;
     gap: 20px;
     align-items: center;
 }
@@ -280,10 +280,26 @@ details[open] summary {
     text-align: center; /* Center text alignment */
   }
 
-  .blue-rectangle:hover {
+.blue-rectangle:hover {
     background-color: navy; /* Darker blue on hover */
     text-decoration: none; /* Remove underline on hover */
-  }
+}
+
+.pdf-container{
+    display:flex;
+    justify-content:center;
+    margin-top:1.5rem;
+}
+
+.cv-frame{
+    width:100%;
+    max-width:816px;                 /* ≈ A4 width */
+    height:calc(100vh - 160px);      /* leave space for heading + button */
+    min-height:600px;
+    border:none;
+    border-radius:6px;
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
+}
 
 .teaching-grid {
     display: grid;
@@ -493,4 +509,62 @@ details[open] summary {
 
 .work-info details p, .research-info details p {
     font-size: 0.75rem;
+}
+
+@media (min-width: 991px) {
+
+  /* 1. Let the content stretch, but not all the way:            *
+   *    - Up to 90 rem (~1440 px) total                           *
+   *    - Always keep a 2 rem (≈32 px) gutter on the right        */
+  .md-main__inner.md-grid {
+    max-width: 90rem;               /* wider than Material default (61 rem) */
+    width: calc(100% - 8rem);       /* 2 rem gutter */
+    margin-right: 6rem;             /* ensure the gutter even if width < 90 rem */
+    margin-left: 2rem;
+    grid-template-columns: auto 1fr;/* keep: sidebar + flexible main column   */
+  }
+
+  /* 2. (unchanged) wide image + text */
+  .summary-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 1.5rem;
+  }
+
+  .summary-img img {
+    width: 100% !important;
+    height: auto;
+  }
+}
+
+/* ── Neutral-colour <details> boxes ─────────────────────────── */
+/* summary line – closed and open */
+.md-typeset details > summary,
+.md-typeset details[open] > summary {
+  background: none !important;     /* kill the blue fill           */
+  color: #000 !important;          /* plain black text             */
+  border-left: none !important;    /* removes the accent stripe    */
+  padding-left: 0 !important;      /* restores normal indentation  */
+}
+
+/* full <details> block (optional): drop the grey fill/border too */
+.md-typeset details {
+  background: transparent;         /* use page background          */
+  border: none;
+}
+
+/* ──────────────────────────────────────────────────────────────
+   1.  Remove the blue “pencil” icon that Material injects
+   ─────────────────────────────────────────────────────────── */
+.md-typeset details > summary::before,
+.md-typeset details[open] > summary::before {
+  content: none !important;   /* kills the icon */
+  display: none !important;   /* and its space */
+}
+
+/* ──────────────────────────────────────────────────────────────
+   2.  Add an extra inset on the Summary line itself
+   ─────────────────────────────────────────────────────────── */
+.md-typeset details > summary {
+  margin-left: 1rem;          /* tweak the value to taste */
 }

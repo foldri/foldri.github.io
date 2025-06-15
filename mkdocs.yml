@@ -1,9 +1,10 @@
-site_name: 'Fulvia Oldrini <br><small><i>PhD Candidate in Accounting at UZH&nbsp;</i></small>'
+site_name: 'Fulvia Oldrini <br><small><i>PhD Candidate in Accounting at the University of Zurich&nbsp;</i></small>'
 
 nav:
   - About: about/index.md
   - Research: research/index.md
   - Teaching: teaching/index.md
+  - CV: cv/index.md
 
 theme:
   name: material

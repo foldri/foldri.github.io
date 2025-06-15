@@ -7,7 +7,7 @@ title: Teaching
 
 <div class="work-info">
     <ul>
-    <li><i class="fas fa-building-flag"></i>Teaching Skills Program Attestation - Systematic development of university-level teaching skills in instructors at the University of Zurich (Academic year 2023-2024)</li>
+    <li><i class="fas fa-building-flag"></i>Teaching Skills Program Diploma - Systematic development of university-level teaching skills in instructors. Selected courses: Teaching portfolio, course planning, complex teaching settings, peer observation (Academic year 2023-2024)</li>
     </ul>
 </div>
 
