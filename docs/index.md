@@ -18,7 +18,7 @@ title: About
         </p>
     </div>
     <div class="about-info">
-        <p>I’m a PhD candidate in Accounting at the University of Zurich. I visited the Wharton School of the University of Pennsylvania in the academic year 2024-2025. I am on the academic job market in 2025-2026. I hold a Master's in Finance from the University of Zurich and a Bachelor's in Economics from Università della Svizzera Italiana (USI). <br> <br>
+        <p>Hello! <br> <br>I’m a PhD candidate in Accounting at the University of Zurich. I visited the Wharton School of the University of Pennsylvania in the academic year 2024-2025. I am on the academic job market in 2025-2026. I hold a Master's in Finance from the University of Zurich and a Bachelor's in Economics from Università della Svizzera Italiana (USI). <br> <br>
         My primary research interest is the role of information in financial markets, with a focus on strategic corporate disclosure and its real effects. In my projects, I study how disclosure shapes external financing choices, securities underpricing, institutional investors' interest, and project selection. I employ a diverse range of research methods, including theoretical models, archival analyses, and surveys. </p>
     </div>
     </div>

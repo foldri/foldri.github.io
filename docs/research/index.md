@@ -8,36 +8,33 @@ title: Research
 <section id="research" class="home-section wg-research">
     <div class="research-info">
         <ul>
-        <li><i class="far fa-newspaper"></i>"Disclosure and external financing under asymmetric information," Job Market Paper.<br><i>Draft available upon request</i>
+        <li><i class="far fa-newspaper"></i>"Signalling with words or with debt? The effect of voluntary disclosure on external public financing choices," Job Market Paper.<br><i>Draft available upon request</i>
         <details open><summary>Summary</summary>
             <div class="summary-grid">
                 <div class="summary-img text-center">
                     <img src="./avg_annual_change_Bond_total.png" alt="Main Figure of Oldrini (2025)" class="img-responsive" style="width: 400px; height: auto;">
                 </div>
                 <div class="summary-info">
-                <p>This paper examines how voluntary disclosure influences capital structure choices for firms
-                    raising external capital under information asymmetry. I develop a model in which managers
-                    of good-type firms choose whether to disclose the future profitability of a prospective project
-                    and whether to issue debt or equity to finance it. Managers of good-type firms have two
-                    options to reduce the problem of information asymmetry when raising external capital: (1)
-                    issue debt or (2) disclose and issue equity. The optimal choice depends on the relative costs
-                    of disclosure and debt. Using data from U.S. public firms from 2002 to 2023, I show that, for
-                    good-type firms, voluntary disclosure is positively associated with equity issuance and negatively associated with bond issuance. Cross-sectional analyses based on disclosure costs and default risk, as well as two regulatory settings—the 2005 Securities Offering Reform and the 2017 Tax Cuts and Jobs Act—support the prediction that firms raising external capital substitute between debt and equity issuance accompanied by disclosure. These findings help reconcile empirical inconsistencies in the pecking order theory. In particular, augmenting the pecking order theory with disclosure explains why some good-type firms prefer issuing equity.</p>
+                <p>This paper examines how managers’ voluntary disclosure choices shape subsequent capital structure decisions between bond financing and equity financing when firms need external funds. I posit that managers of good-type firms have two signaling options: (1) issue bonds or (2) disclose and issue equity. Because disclosure resolves information asymmetry, it makes equity issuance cheaper. Therefore, disclosure complements equity and substitutes for bonds. The optimal choice depends on the relative costs of disclosure and debt. 
+                Using data on U.S. public firms from 2002 to 2024, I show that firms with higher future profitability exhibit a positive relation between disclosure and equity issuance and a negative relation between disclosure and bond issuance. Cross-sectional tests based on disclosure costs and default risk, as well as two regulatory shocks—the 2005 Securities Offering Reform and the 2017 Tax Cuts and Jobs Act—support the prediction that firms substitute between bond financing and the disclosure-equity bundle. These findings reconcile empirical inconsistencies in the pecking-order theory by showing that good-type firms prefer equity when it is bundled with voluntary disclosure.</p>
                 </div>
             </div>
         </details>
         </li>
         </ul>
         <ul>
-        <li><i class="far fa-newspaper"></i>"I need a network: determinants and consequences of debt roadshows," with Mingxuan Ma and Sike Chen.<br><i>Draft available upon request</i>
+        <li><i class="far fa-newspaper"></i>"I need a network: determinants and real effects of bond roadshows," with Mingxuan Ma and Sike Chen.<br><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5378115" class="blue-rectangle" target="_blank">SSRN link</a>
         <details open><summary>Summary</summary>
             <div class="summary-grid">
                 <div class="summary-img text-center">
                     <img src="./Roadshows_types_year.png" alt="Main Figure of Chen, Ma, Oldrini (2025)" class="img-responsive" style="width: 400px; height: auto;">
                 </div>
                 <div class="summary-info">
-                <p>This paper examines why some public firms conduct roadshows for bond issues and their ex-post impact on the cost of bond financing and bond underpricing. Using data from the German bond market (2014–2023), we find that roadshows primarily serve as a marketing tool, establishing a network of investors and boosting demand, rather than as a tool to reduce information asymmetry, as shown by previous studies on initial public offerings (IPOs) roadshows. Firms that conduct bond roadshows experience larger upward price revisions, higher oversubscription ratios in the primary market, and lower financing costs. 
-                We validate our results by running cross-sectional tests and additional tests that determine whether bond roadshows have an impact on bond underpricing through investors' interest. Lastly, we find evidence that bond roadshows aim to market special bond characteristics and establish a network of investors. These findings offer novel insights into the role of the investors' networks in bond markets, highlighting how roadshows influence capital-raising outcomes.</p>
+                <p>Equity roadshows are a well-studied phenomenon, and the literature has found that their primary purpose is to reduce information asymmetry and underpricing. However, little is known about the determinants and real effects of bond roadshows.
+                This paper examines why firms decide to conduct a roadshow when issuing bonds and their real effects on the cost of bonds - a literature gap possibly due to a lack of readily available data, which we had to manually collect.
+                We conduct surveys with underwriters and issuers to gain their insights on the role of bond roadshows and obtain two conflicting answers: according to underwriters, bond roadshows have an informational role, while according to issuers, they have a marketing role. We test these opposing views in the German bond market (2014–2023), finding evidence in support of the marketing role. We show that bond roadshows aim to raise investors' attention and increase their demand in the primary market, possibly to establish a network of institutional investors.
+                The different role that bond roadshows have compared to equity roadshows underscores the importance of closing the literature gap and studying their real effects. We test and find that bond roadshows reduce the cost of bonds for firms, reducing bonds' final spread and substituting for the need for underpricing to ensure successful issuance.
+                These findings offer novel insights into the role of the investors' networks in bond markets, highlighting how roadshows influence capital-raising outcomes.</p>
                 </div>
             </div>
         </details>
@@ -66,7 +63,7 @@ title: Research
     <div class="work-info">
         <ul>
         <li><i class="fas fa-person-digging"></i>"Environmental feedback effect," with Daniela Zipperer.</li>
-        <li><i class="fas fa-person-digging"></i>"Information disclosure and firm entry," with Igli Bajo.</li>
+        <li><i class="fas fa-person-digging"></i>"When horizons converge: investor selection, firm output and aggregate welfare," with Igli Bajo.</li>
         </ul>
     </div>
 </section>
