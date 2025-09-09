@@ -15,7 +15,16 @@ title: Teaching
 
 <div class="work-info">
     <ul>
-    <li><i class="fas fa-person-chalkboard"></i>Teaching Assistant, Financial Reporting, Bachelor's (Spring 2021, 2022, 2023, 2024)</li>
+    <li>
+      <i class="fas fa-person-chalkboard"></i>
+      Teaching Assistant, Financial Reporting, Bachelor's (Spring 2021, 2022, 2023, 2024)
+      <div class="item-links">
+        <a href="./FR_2023.pdf" class="cv-link" target="_blank" style="color:#1a73e8;text-decoration: underline;">Students' evaluations 2023</a>
+      </div>
+      <div class="item-links">
+        <a href="./FR_2024.pdf" class="cv-link" target="_blank" style="color:#1a73e8;text-decoration: underline;">Students' evaluations 2024</a>
+      </div>
+    </li>
     <li><i class="fas fa-chalkboard-user"></i>Teaching Assistant, Accounting Boot Camp for Master's students, Master's (Fall 2021, 2022)</li>
     <li><i class="fas fa-chalkboard-user"></i>Teaching Assistant, Theories of Accounting Disclosure, Master's (Fall 2021)</li>
     <li><i class="fas fa-chalkboard-user"></i>Theses Supervision, Master's and Bachelor's (2021-present)</li>

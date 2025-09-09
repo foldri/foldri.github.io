@@ -24,7 +24,7 @@ title: Research
         </li>
         </ul>
         <ul>
-        <li><i class="far fa-newspaper"></i>"I need a network: determinants and real effects of bond roadshows," with <a href="https://sites.google.com/view/mingxuan-ma/main" target="_blank" style="color: inherit; text-decoration: underline;">Mingxuan Ma</a> and Sike Chen.<br><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5378115" class="blue-rectangle" target="_blank">SSRN link</a>
+        <li><i class="far fa-newspaper"></i>"I need a network: determinants and real effects of bond roadshows," with <a href="https://sites.google.com/view/mingxuan-ma/main" target="_blank" style="color:#1a73e8;text-decoration: underline;">Mingxuan Ma</a> and Sike Chen.<br><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5378115" class="blue-rectangle" target="_blank">SSRN link</a>
         <details open><summary>Summary</summary>
             <div class="summary-grid">
                 <div class="summary-img text-center">
@@ -43,7 +43,7 @@ title: Research
         </li>
         </ul>
         <ul>
-        <li><i class="far fa-newspaper"></i>"Mandatory Sustainability Reporting and Project Selection," with <a href="https://www.business.uzh.ch/en/research/professorships/chen/huichen.html" target="_blank" style="color: inherit; text-decoration: underline;">Hui Chen</a>.<br><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4864092" class="blue-rectangle" target="_blank">SSRN link</a>
+        <li><i class="far fa-newspaper"></i>"Mandatory Sustainability Reporting and Project Selection," with <a href="https://www.business.uzh.ch/en/research/professorships/chen/huichen.html" target="_blank" style="color:#1a73e8;text-decoration: underline;">Hui Chen</a>.<br><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4864092" class="blue-rectangle" target="_blank">SSRN link</a>
         <details open><summary>Summary</summary>
             <div class="summary-grid">
                 <div class="summary-img text-center">
