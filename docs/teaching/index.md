@@ -19,10 +19,14 @@ title: Teaching
       <i class="fas fa-person-chalkboard"></i>
       Teaching Assistant, Financial Reporting, Bachelor's (Spring 2021, 2022, 2023, 2024)
       <div class="item-links">
-        <a href="./FR_2023.pdf" class="cv-link" target="_blank" style="color:#1a73e8;text-decoration: underline;">Students' evaluations 2023</a>
+      <a href="./FR_2024.pdf" class="cv-link" target="_blank" style="color:#1a73e8;text-decoration: underline;">
+      Students' evaluations 2024 (in English)
+      </a>
+      <span style="margin-left: 8px; color: #333;">Mean: 5.2 out of 6</span>
       </div>
       <div class="item-links">
-        <a href="./FR_2024.pdf" class="cv-link" target="_blank" style="color:#1a73e8;text-decoration: underline;">Students' evaluations 2024</a>
+        <a href="./FR_2023.pdf" class="cv-link" target="_blank" style="color:#1a73e8;text-decoration: underline;">Students' evaluations 2023 (in German)</a>
+        <span style="margin-left: 8px; color: #333;">Mean: 5.1 out of 6</span>
       </div>
     </li>
     <li><i class="fas fa-chalkboard-user"></i>Teaching Assistant, Accounting Boot Camp for Master's students, Master's (Fall 2021, 2022)</li>
