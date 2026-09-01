@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fulvia Oldrini</title>
+<meta name="description" content="Fulvia Oldrini, Assistant Professor of Accounting at the London School of Economics. Research on corporate disclosure and information in financial markets.">
+<meta property="og:title" content="Fulvia Oldrini">
+<meta property="og:description" content="Assistant Professor of Accounting, London School of Economics.">
+<meta property="og:type" content="profile">
+<link rel="icon" href="favicon.png">
+
+<style>
+/* ============================================================
+   PALETTE — per ritoccare i colori del sito cambia solo qui.
+   --accent e' il rosso: se le brand guidelines LSE danno un
+   valore diverso, sostituiscilo qui e cambia tutto il sito.
+   ============================================================ */
+:root {
+  --ink:      #17181a;
+  --muted:    #6a6d72;
+  --hairline: #e3e2df;
+  --paper:    #ffffff;
+  --accent:   #e4002b;
+  --accent-soft: #fdeef1;
+
+  --serif: "Iowan Old Style", "Charter", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans:  -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #e9e8e6; --muted: #9a9da2; --hairline: #2c2e31;
+    --paper: #111214; --accent: #ff5069; --accent-soft: #24171a;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 17.5px;
+  line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap { max-width: 42rem; margin: 0 auto; padding: 0 1.5rem 5rem; }
+
+a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--accent); }
+a:hover { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+/* ---------- nav ---------- */
+nav {
+  position: sticky; top: 0; z-index: 10;
+  background: var(--paper);
+  border-bottom: 1px solid var(--hairline);
+}
+nav .wrap { display: flex; gap: 1.4rem; padding: .7rem 1.5rem; }
+nav a {
+  font-family: var(--sans); font-size: .74rem; font-weight: 500;
+  letter-spacing: .1em; text-transform: uppercase;
+  color: var(--muted); border: 0;
+}
+nav a:hover { color: var(--accent); }
+
+/* ---------- header ---------- */
+header { padding: 3.5rem 0 2.5rem; }
+.id { display: flex; gap: 1.6rem; align-items: flex-start; }
+.id img {
+  width: 116px; height: 116px; flex: none;
+  object-fit: cover; border-radius: 2px;
+}
+
+h1 { font-size: 2.05rem; font-weight: 600; line-height: 1.1; margin: 0 0 .35rem; letter-spacing: -.015em; }
+.role { color: var(--muted); font-style: italic; margin: 0 0 .9rem; }
+.contact { font-family: var(--sans); font-size: .84rem; display: flex; flex-wrap: wrap; gap: .4rem 1rem; }
+
+.bio { margin-top: 2.2rem; }
+.bio p { margin: 0 0 1rem; }
+
+/* ---------- sections ---------- */
+section { padding-top: 3rem; }
+
+h2 {
+  font-family: var(--sans);
+  font-size: .74rem; font-weight: 600;
+  letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 1.4rem;
+  display: flex; align-items: center; gap: .9rem;
+}
+h2::after { content: ""; flex: 1; height: 1px; background: var(--accent); opacity: .35; }
+
+h3 {
+  font-family: var(--sans); font-size: .78rem; font-weight: 600;
+  letter-spacing: .06em; color: var(--muted); text-transform: uppercase;
+  margin: 2.2rem 0 .8rem;
+}
+h3.first { margin-top: 0; }
+
+/* ---------- papers ---------- */
+.paper { padding: 1.1rem 0; border-bottom: 1px solid var(--hairline); }
+.paper:last-child { border-bottom: 0; }
+.paper .title { display: block; margin-bottom: .2rem; }
+.paper .meta {
+  font-family: var(--sans); font-size: .82rem; color: var(--muted);
+  display: flex; flex-wrap: wrap; gap: .3rem .8rem; align-items: baseline;
+}
+
+details { margin-top: .5rem; }
+details summary {
+  font-family: var(--sans); font-size: .8rem; color: var(--muted);
+  cursor: pointer; list-style: none; display: inline-block;
+  border-bottom: 1px dotted var(--muted);
+}
+details summary::-webkit-details-marker { display: none; }
+details summary:hover { color: var(--accent); border-bottom-color: var(--accent); }
+details[open] summary { margin-bottom: .7rem; }
+details p {
+  font-size: .94rem; color: var(--muted); margin: 0 0 .6rem;
+  padding-left: .9rem; border-left: 2px solid var(--hairline);
+}
+
+ul.plain { list-style: none; padding: 0; margin: 0; }
+ul.plain li { padding: .5rem 0; border-bottom: 1px solid var(--hairline); }
+ul.plain li:last-child { border-bottom: 0; }
+ul.plain .sub { display: block; font-family: var(--sans); font-size: .8rem; color: var(--muted); }
+
+footer {
+  margin-top: 4rem; padding-top: 1.2rem; border-top: 1px solid var(--hairline);
+  font-family: var(--sans); font-size: .78rem; color: var(--muted);
+}
+
+@media (max-width: 34rem) {
+  body { font-size: 16.5px; }
+  .id { flex-direction: column; gap: 1.1rem; }
+  .id img { width: 92px; height: 92px; }
+  h1 { font-size: 1.7rem; }
+  nav .wrap { gap: 1rem; overflow-x: auto; }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="#research">Research</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#cv">CV</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+<header>
+  <div class="id">
+    <img src="photo.jpg" alt="Fulvia Oldrini">
+    <div>
+      <h1>Fulvia Oldrini</h1>
+      <p class="role">Assistant Professor of Accounting<br>London School of Economics and Political Science</p>
+      <div class="contact">
+        <a href="mailto:F.Oldrini@lse.ac.uk">F.Oldrini@lse.ac.uk</a>
+        <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4450856">SSRN</a>
+        <a href="https://www.linkedin.com/in/fulvia-oldrini-7013a992/">LinkedIn</a>
+        <a href="CV.pdf">CV</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="bio">
+    <p>I am an Assistant Professor in the Department of Accounting at the London School of
+    Economics and Political Science.</p>
+
+    <p>My research examines the role of information in financial markets, with a focus on
+    strategic corporate disclosure and its consequences for financial markets, real
+    corporate decisions, and governance. My research is both empirical and theoretical.</p>
+
+    <p>I hold a PhD in Accounting from the University of Zurich. I visited the Wharton
+    School of the University of Pennsylvania in 2024&ndash;2025. I hold a Master's in Finance
+    from the University of Zurich and a Bachelor's in Economics from Universit&agrave; della
+    Svizzera italiana. Prior to my doctoral studies, I worked in the Monetary Policy division
+    of the European Central Bank.</p>
+  </div>
+</header>
+
+<section id="research">
+  <h2>Research</h2>
+
+  <h3 class="first">Working papers</h3>
+
+  <div class="paper">
+    <span class="title">Signaling with words or debt? The effect of voluntary disclosure
+      on external public financing choices</span>
+    <div class="meta">
+      <span>2026 &middot; Draft available upon request</span>
+    </div>
+    <details>
+      <summary>Abstract</summary>
+      <p>This paper examines how voluntary disclosure shapes capital structure choices
+      between debt and equity in public markets under information asymmetry. I develop a
+      model in which voluntary disclosure and debt issues are alternative signaling devices:
+      disclosure complements equity and substitutes for debt. Good-type firms choose
+      optimally between issuing debt or pairing disclosure with equity issues based on the
+      relative costs of each. In a sample of U.S. public firms from 2003 to 2024, I find
+      that, for good-type firms, disclosure is positively related to equity issues and
+      negatively related to bond issues. Two quasi-natural experiments&mdash;the 2005
+      Securities Offering Reform and the 2017 Tax Cuts and Jobs Act&mdash;support a causal
+      interpretation of this substitution effect.</p>
+    </details>
+  </div>
+
+  <div class="paper">
+    <span class="title">What are the effects of bond roadshows? Evidence from the primary
+      bond market</span>
+    <div class="meta">
+      <span>with Sike Chen (Barclays) and
+        <a href="https://sites.google.com/view/mingxuan-ma/">Mingxuan Ma</a> (Zurich)
+        &middot; 2026</span>
+      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5378115">SSRN</a>
+    </div>
+    <details>
+      <summary>Abstract</summary>
+      <p>Bond roadshows are common in practice, yet they have received little attention in
+      the academic literature, and their economic mechanism is ambiguous ex ante. A roadshow
+      may serve as an information mechanism, helping the issuer and its underwriters learn
+      about investor demand through pre-pricing feedback, or as a marketing mechanism,
+      drawing investors to the issue and building demand during bookbuilding. The corporate
+      bond primary market lets us separate the two mechanisms, because they make opposite
+      predictions for how far the issuer's borrowing spread falls between the opening quote
+      and the final pricing: pricing feedback compresses that move, while demand mobilization
+      widens it. Using hand-collected deal-level data from the German corporate bond market,
+      where roadshows are observable, we find that roadshow bonds tighten more and attract
+      larger order books, and that they price at lower final spreads across issuers but not
+      within them. Cross-sectional tests and two settings that shift issuer visibility and
+      investor demand, based on HDAX 100 membership and the end of the ECB's Corporate Sector
+      Purchase Programme, point the same way. Bond roadshows appear to help issuers mobilize
+      investor demand rather than to refine the opening price through pre-pricing feedback.</p>
+    </details>
+  </div>
+
+  <div class="paper">
+    <span class="title">Mandatory sustainability reporting and project selection</span>
+    <div class="meta">
+      <span>with <a href="https://www.business.uzh.ch/en/research/professorships/chen/huichen.html">Hui Chen</a>
+        (Zurich) &middot; 2026</span>
+      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4864092">SSRN</a>
+    </div>
+    <details>
+      <summary>Abstract</summary>
+      <p>We study how mandatory versus voluntary sustainability disclosure affects
+      managerial project selection. A myopic manager chooses between a brown project with
+      higher expected financial returns and a green project with higher expected
+      sustainability returns, and strategically withholds sustainability information under
+      voluntary disclosure. We show that the manager over-invests in brown projects under
+      both regimes, but the distortion is strictly more severe under voluntary disclosure.
+      The mechanism is an option value of withholding: because the brown project's
+      sustainability return has a lower mean, voluntary disclosure disproportionately
+      benefits brown through a <em>distributional effect</em>. At the same time, a
+      countervailing <em>return effect</em> implies that higher financial returns signal
+      brown to the market, lowering the disclosure threshold and partially eroding brown's
+      option value advantage. We show that the distributional effect always dominates for
+      all parameter values under pure strategies. Mandatory disclosure therefore strictly
+      dominates voluntary disclosure in investment efficiency, expected firm value, and
+      aggregate sustainability outcomes. Extending the model to allow for compliance costs,
+      a regulator mandates disclosure if and only if adoption costs are sufficiently low
+      relative to the weight placed on environmental externalities, rationalizing the
+      divergent regulatory trajectories observed across jurisdictions.</p>
+    </details>
+  </div>
+
+  <h3>Work in progress</h3>
+  <ul class="plain">
+    <li>Environmental feedback effect <span class="sub">with <a href="https://www.daniela-zipperer.com/">Daniela Zipperer</a> (LSE)</span></li>
+    <li>When horizons converge: investor selection, firm output and aggregate welfare
+      <span class="sub">with <a href="https://igli-bajo.com/">Igli Bajo</a> (Zurich)</span></li>
+  </ul>
+
+</section>
+
+<section id="teaching">
+  <h2>Teaching</h2>
+  <ul class="plain">
+    <li>Intermediate Financial Accounting
+      <span class="sub">London School of Economics, 2027 &middot; instructor</span></li>
+    <li>Financial Reporting
+      <span class="sub">University of Zurich, 2021&ndash;2026 &middot; teaching assistant</span></li>
+    <li>Accounting Bootcamp
+      <span class="sub">University of Zurich, 2021&ndash;2022 &middot; teaching assistant</span></li>
+    <li>Theories of Accounting Disclosure
+      <span class="sub">University of Zurich, 2021 &middot; teaching assistant</span></li>
+    <li>Introduction to Econometrics
+      <span class="sub">Universit&agrave; della Svizzera italiana, 2015 &middot; teaching assistant</span></li>
+  </ul>
+</section>
+
+<section id="cv">
+  <h2>CV</h2>
+  <p><a href="CV.pdf">Download my CV (PDF)</a></p>
+</section>
+
+<footer>
+  Last updated September 2026.
+</footer>
+
+</div>
+</body>
+</html>
